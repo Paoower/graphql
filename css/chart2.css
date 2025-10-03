@@ -1,0 +1,29 @@
+.chart2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    border: solid white 0.05rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.chart2 {
+    stroke: blue;
+    fill: transparent;
+    stroke-width: 2;
+    display: block;
+    box-sizing: content-box;
+    max-width: 100%;
+}
+
+.chart2 .y-value {
+    stroke: white;
+    stroke-width: 1;
+}
+
+.chart2 .y-step {
+    stroke: gray;
+    stroke-width: 1;
+    stroke-dasharray: 4 4;
+}
